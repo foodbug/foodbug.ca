@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('foodbug.caApp')
+angular.module('foodBugApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

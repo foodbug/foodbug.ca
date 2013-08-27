@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('foodbug.caApp', [])
+angular.module('foodBugApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
