@@ -1,0 +1,241 @@
+
+
+.activity-image {
+    background-image: url(http://placehold.it/110x110);
+    background-size: cover;
+    border-color: rgb(102, 96, 91);
+    color: rgb(102, 96, 91);
+    display: block;
+    height: 0px;
+    outline-color: rgb(102, 96, 91);
+    padding-bottom: 110px;
+    text-decoration: none;
+    -webkit-background-size: cover;
+    -webkit-column-rule-color: rgb(102, 96, 91);
+    -webkit-perspective-origin-x: 105px;
+    -webkit-perspective-origin-y: 105px;
+    -webkit-text-decorations-in-effect: none;
+    -webkit-transform-origin: 105px 105px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.activity-controls {
+    height: 35px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 186px;
+    -webkit-perspective-origin-x: 105px;
+    -webkit-perspective-origin-y: 17.5px;
+    -webkit-transform-origin: 105px 17.5px;
+}
+
+.activity-control {
+    display: inline-block;
+    height: 35px;
+    padding-right: 14px;
+    position: relative;
+    width: 30px;
+    -webkit-perspective-origin-x: 22px;
+    -webkit-perspective-origin-y: 17.5px;
+    -webkit-transform-origin: 22px 17.5px;
+}
+
+.button-8-roe {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-sizing: content-box;
+    color: rgb(202, 191, 178);
+    cursor: pointer;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 19px;
+    line-height: 18px;
+    margin: 0px;
+    outline-color: rgb(202, 191, 178);
+    padding: 7px 0px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 28px;
+    -webkit-appearance: none;
+    -webkit-column-rule-color: rgb(202, 191, 178);
+    -webkit-perspective-origin-x: 15px;
+    -webkit-perspective-origin-y: 17.5px;
+    -webkit-text-emphasis-color: rgb(202, 191, 178);
+    -webkit-text-fill-color: rgb(202, 191, 178);
+    -webkit-text-stroke-color: rgb(202, 191, 178);
+    -webkit-transform-origin: 15px 17.5px;
+}
+
+.i-9-roe {
+    background-image: url(http://www.foodie.com/assets/img/sprite.png?1377085227);
+    background-size: 270px;
+    display: inline-block;
+    font-style: normal;
+    height: 18px;
+    line-height: 0px;
+    vertical-align: middle;
+    width: 18px;
+    -webkit-background-size: 270px;
+    -webkit-perspective-origin-x: 9px;
+    -webkit-perspective-origin-y: 9px;
+    -webkit-transform-origin: 9px 9px;
+    background-position: -18px -288px;
+    background-repeat: no-repeat no-repeat;
+}
+
+.i-12-roe {
+    background-image: url(http://www.foodie.com/assets/img/sprite.png?1377085227);
+    background-size: 270px;
+    display: inline-block;
+    font-style: normal;
+    height: 18px;
+    line-height: 0px;
+    vertical-align: middle;
+    width: 18px;
+    -webkit-background-size: 270px;
+    -webkit-perspective-origin-x: 9px;
+    -webkit-perspective-origin-y: 9px;
+    -webkit-transform-origin: 9px 9px;
+    background-position: -18px -450px;
+    background-repeat: no-repeat no-repeat;
+}
+
+.li-13-roe {
+    display: inline-block;
+    height: 35px;
+    padding-right: 14px;
+    position: relative;
+    width: 20px;
+    -webkit-perspective-origin-x: 17px;
+    -webkit-perspective-origin-y: 17.5px;
+    -webkit-transform-origin: 17px 17.5px;
+}
+
+.button-14-roe {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-sizing: content-box;
+    color: rgb(202, 191, 178);
+    cursor: pointer;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 19px;
+    line-height: 18px;
+    margin: 0px;
+    outline-color: rgb(202, 191, 178);
+    padding: 7px 0px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 18px;
+    -webkit-appearance: none;
+    -webkit-column-rule-color: rgb(202, 191, 178);
+    -webkit-perspective-origin-x: 10px;
+    -webkit-perspective-origin-y: 17.5px;
+    -webkit-text-emphasis-color: rgb(202, 191, 178);
+    -webkit-text-fill-color: rgb(202, 191, 178);
+    -webkit-text-stroke-color: rgb(202, 191, 178);
+    -webkit-transform-origin: 10px 17.5px;
+}
+
+.i-15-roe {
+    background-image: url(http://www.foodie.com/assets/img/sprite.png?1377085227);
+    background-size: 270px;
+    display: inline-block;
+    font-style: normal;
+    height: 18px;
+    line-height: 0px;
+    vertical-align: middle;
+    width: 18px;
+    -webkit-background-size: 270px;
+    -webkit-perspective-origin-x: 9px;
+    -webkit-perspective-origin-y: 9px;
+    -webkit-transform-origin: 9px 9px;
+    background-position: -18px -612px;
+    background-repeat: no-repeat no-repeat;
+}
+
+.activity-wrapper {
+    background-color: rgb(247, 242, 236);
+    font-size: 12px;
+    height: 30px;
+    line-height: 15px;
+    min-height: 28px;
+    padding: 12px 12px 12px 55px;
+    position: relative;
+    width: 110px;
+    -webkit-perspective-origin-x: 105px;
+    -webkit-perspective-origin-y: 27px;
+    -webkit-transform-origin: 105px 27px;
+}
+
+.profile-link {
+    background-size: cover;
+    border: 1px solid rgb(217, 210, 203);
+    box-sizing: border-box;
+    color: rgb(102, 96, 91);
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 28px;
+    margin-left: -43px;
+    outline-color: rgb(102, 96, 91);
+    text-decoration: none;
+    width: 28px;
+    -webkit-background-size: cover;
+    -webkit-column-rule-color: rgb(102, 96, 91);
+    -webkit-perspective-origin-x: 14px;
+    -webkit-perspective-origin-y: 14px;
+    -webkit-text-decorations-in-effect: none;
+    -webkit-transform-origin: 14px 14px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+
+.profile-thumbnail {
+    height: 26px;
+    width: 26px;
+    -webkit-perspective-origin-x: 13px;
+    -webkit-perspective-origin-y: 13px;
+    -webkit-transform-origin: 13px 13px;
+}
+
+
+
+.a-20-roe {
+    border-color: rgb(102, 96, 91);
+    color: rgb(102, 96, 91);
+    font-weight: bold;
+    outline-color: rgb(102, 96, 91);
+    text-decoration: none;
+    -webkit-column-rule-color: rgb(102, 96, 91);
+    -webkit-text-decorations-in-effect: none;
+}
+
+.span-21-roe {
+    text-transform: lowercase;
+}
+
+.ul-22-roe {
+    background-color: rgb(247, 242, 236);
+    font-size: 12px;
+    line-height: 15px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    width: 210px;
+}

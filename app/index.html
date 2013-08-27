@@ -1,79 +1,225 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <style>
+        .item {
+            list-style-type: none;
+            margin-bottom: 20px;
+        }
 
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/bootstrap.css">
-        <link rel="stylesheet" href="styles/bootstrap-responsive.css">
-        <link rel="stylesheet" href="components/font-awesome/css/font-awesome.css">
+        .activity-recipe-title {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 5px;
+        }
 
+        .div-0-wwl {
+            font-family: Arial, Helvetica, Garuda, sans-serif;
+            font-size: 12px;
+            height: 94px;
+            line-height: 16px;
+            width: 926px;
+            -webkit-perspective-origin-x: 463px;
+            -webkit-perspective-origin-y: 47px;
+            -webkit-transform-origin: 463px 47px;
+        }
 
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
+        .div-1-wwl {
+            float: left;
+            height: 60px;
+            margin-bottom: 12px;
+            margin-top: 8px;
+            width: 723px;
+            -webkit-perspective-origin-x: 361.5px;
+            -webkit-perspective-origin-y: 30px;
+            -webkit-transform-origin: 361.5px 30px;
+        }
+
+        .div-2-wwl {
+            height: 0px;
+            -webkit-perspective-origin-x: 361.5px;
+            -webkit-perspective-origin-y: 0px;
+            -webkit-transform-origin: 361.5px 0px;
+        }
+
+        .img-3-wwl {
+            display: block;
+            float: left;
+            margin-bottom: 5px;
+            margin-right: 8px;
+        }
+
+        .div-4-wwl {
+            float: left;
+            height: 34px;
+            margin-left: -14px;
+            margin-top: 19px;
+            width: 141.375px;
+            -webkit-perspective-origin-x: 70.6875px;
+            -webkit-perspective-origin-y: 17px;
+            -webkit-transform-origin: 70.6875px 17px;
+        }
+
+        .a-5-wwl {
+            background-image: linear-gradient(rgb(206, 65, 53), rgb(188, 42, 33));
+            border-color: rgb(155, 49, 40) rgb(148, 40, 33) rgb(141, 31, 25);
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            border-style: solid;
+            border-width: 1px;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 2px 0px, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset;
+            color: rgb(243, 213, 212);
+            cursor: pointer;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            height: 18px;
+            line-height: 18px;
+            margin-left: 2px;
+            margin-right: 2px;
+            outline-color: rgb(243, 213, 212);
+            padding: 7px 18.1875px;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: rgba(0, 0, 0, 0.2) 0px -1px 0px;
+            text-transform: uppercase;
+            width: 99px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 2px 0px, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset;
+            -webkit-column-rule-color: rgb(243, 213, 212);
+            -webkit-perspective-origin-x: 68.6875px;
+            -webkit-perspective-origin-y: 17px;
+            -webkit-tap-highlight-color: rgb(255, 94, 153);
+            -webkit-text-decorations-in-effect: none;
+            -webkit-text-emphasis-color: rgb(243, 213, 212);
+            -webkit-text-fill-color: rgb(243, 213, 212);
+            -webkit-text-stroke-color: rgb(243, 213, 212);
+            -webkit-transform-origin: 68.6875px 17px;
+        }
+
+        .div-6-wwl {
+            clear: both;
+        }
+
+        .hr-7-wwl {
+            border-color: rgb(231, 230, 230);
+            border-style: solid none none;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            height: 1px;
+            margin-bottom: 45px;
+            margin-top: 12px;
+            width: 926px;
+        }
+
+        .responsive-image { max-width:100%; height:auto; }
+    </style>
+    <!-- build:css(.tmp) styles/bootstrap.css -->
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <!-- build:css(.tmp) styles/bootstrap-responsive.css -->
+    <link rel="stylesheet" href="styles/bootstrap-responsive.css">
+    <!-- build:css(.tmp) components/font-awesome/css/font-awesome.css -->
+    <link rel="stylesheet" href="components/font-awesome/css/font-awesome.css">
+
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="components/blueimp-bootstrap-image-gallery/css/bootstrap-image-gallery.css">
+    <link rel="stylesheet" href="styles/foodie.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
 </head>
-  <body ng-app="foodBugApp">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<body ng-app="foodBugApp">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
-    <!--[if lt IE 9]>
-      <script src="components/es5-shim/es5-shim.js"></script>
-      <script src="components/json3/lib/json3.min.js"></script>
-    <![endif]-->
+<!--[if lt IE 9]>
+<script src="components/es5-shim/es5-shim.js"></script>
+<script src="components/json3/lib/json3.min.js"></script>
+<![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+<!-- Add your site or application content here -->
+<div class="container" ng-view="" ></div>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
 
-    <script src="components/jquery/jquery.js"></script>
-    <script src="components/jquery.cycle/jquery.cycle.all.js"></script>
-    <script src="components/angular/angular.js"></script>
+<script src="components/jquery/jquery.js"></script>
+<script src="components/jquery.cycle/jquery.cycle.all.js"></script>
+<script src="components/angular/angular.js"></script>
 
-        <!-- build:js scripts/plugins.js -->
-        <script src="components/bootstrap-sass/js/bootstrap-affix.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-alert.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-modal.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-transition.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-button.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-popover.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-typeahead.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-carousel.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-collapse.js"></script>
-        <script src="components/bootstrap-sass/js/bootstrap-tab.js"></script>
-        <!-- endbuild -->
+<!-- build:js scripts/plugins.js -->
+<script src="components/bootstrap-sass/js/bootstrap-affix.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-alert.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-modal.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-transition.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-button.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-popover.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-typeahead.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-carousel.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-collapse.js"></script>
+<script src="components/bootstrap-sass/js/bootstrap-tab.js"></script>
+<!-- endbuild -->
 
-        <!-- build:js scripts/modules.js -->
-        <script src="components/angular-resource/angular-resource.js"></script>
-        <script src="components/angular-cookies/angular-cookies.js"></script>
-        <script src="components/angular-sanitize/angular-sanitize.js"></script>
-        <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <!-- endbuild -->
+<script src="components/eventEmitter/EventEmitter.js"></script>
+<script src="components/eventie/eventie.js"></script>
+<script src="components/doc-ready/doc-ready.js"></script>
+<script src="components/get-style-property/get-style-property.js"></script>
+<script src="components/get-size/get-size.js"></script>
+<script src="components/jquery-bridget/jquery.bridget.js"></script>
+<script src="components/matches-selector/matches-selector.js"></script>
+<script src="components/outlayer/item.js"></script>
+<script src="components/outlayer/outlayer.js"></script>
+
+<script src="components/masonry/masonry.js"></script>
+<script src="components/blueimp-bootstrap-image-gallery/js/load-image.js"></script>
+<script src="components/blueimp-bootstrap-image-gallery/js/bootstrap-image-gallery.js"></script>
+
+
+<!-- build:js scripts/modules.js -->
+<script src="components/angular-resource/angular-resource.js"></script>
+<script src="components/angular-cookies/angular-cookies.js"></script>
+<script src="components/angular-sanitize/angular-sanitize.js"></script>
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<!-- endbuild -->
 
 </body>
 </html>

@@ -12,7 +12,9 @@
     "angular-sanitize": "~1.0.7",
     "angular-bootstrap": "~0.5.0",
     "jquery.cycle": "*",
-    "font-awesome": "~3.2.1"
+    "font-awesome": "~3.2.1",
+    "masonry": "~3.1.2",
+    "blueimp-bootstrap-image-gallery": "https://github.com/blueimp/Bootstrap-Image-Gallery.git#~2.10.2"
   },
   "devDependencies": {
     "angular-mocks": "~1.0.7",
